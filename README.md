@@ -24,11 +24,13 @@ REQUIRED EXTERNAL PACKAGES
 Use of this package requires the installation of the OpenG MD5 Library, which can be installed through the VI Package Manager ( http://jki.net/vipm )
 -->
 
-Required Software
-=================
+Required Software and Settings
+==============================
 Use of ROSforLV requires LabVIEW 2012 or later.
 
 Use of ROS_Master requires LabVIEW 2013 or later, LabVIEW myRIO toolkit, and LabVIEW Real-Time Module.
+
+If you are running LabVIEW on a Virtual Machine, your network settings should be set to Bridge.
 
 Use with Baxter Research Robot
 ==============================
