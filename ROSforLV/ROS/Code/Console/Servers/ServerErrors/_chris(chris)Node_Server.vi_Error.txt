@@ -1,1 +1,0 @@
-Error 0 occurred at Unable to unregister [/chris] as a subscriber of [/robot/joint_states]Possible reason(s):LabVIEW:  Error connecting to GPIB driver or device.=========================NI-488:  Error connecting to driver or device.=========================VISA:  (Hex 0x0) Operation completed successfully.
