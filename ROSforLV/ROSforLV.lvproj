@@ -35,6 +35,8 @@
 				<Item Name="DrawCylinder.vi" Type="VI" URL="/&lt;userlib&gt;/3DDrawing/DrawCylinder.vi"/>
 				<Item Name="DrawOnStage.vi" Type="VI" URL="/&lt;userlib&gt;/3DDrawing/DrawOnStage.vi"/>
 				<Item Name="Lines.vi" Type="VI" URL="/&lt;userlib&gt;/VRML.llb/Lines.vi"/>
+				<Item Name="ROS_Loop_Rate.vi" Type="VI" URL="/&lt;userlib&gt;/rosforlv/ROS/Code/ROS_Loop_Rate.vi"/>
+				<Item Name="ROS_Service_Setup.vi" Type="VI" URL="/&lt;userlib&gt;/rosforlv/ROS/Code/ROS_Service_Setup.vi"/>
 				<Item Name="StageInit.vi" Type="VI" URL="/&lt;userlib&gt;/3DDrawing/StageInit.vi"/>
 				<Item Name="VRML Rotate.vi" Type="VI" URL="/&lt;userlib&gt;/VRML.llb/VRML Rotate.vi"/>
 				<Item Name="VRML Save.vi" Type="VI" URL="/&lt;userlib&gt;/VRML.llb/VRML Save.vi"/>
@@ -68,6 +70,7 @@
 				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 			</Item>
+			<Item Name="GetError.vi" Type="VI" URL="../../../../../../Users/whitneycrooks/Desktop/ErrorHandlingOld/GetError.vi"/>
 			<Item Name="lvanlys.framework" Type="Document" URL="/&lt;resource&gt;/lvanlys.framework"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
