@@ -1,9 +1,7 @@
 ROS for LabVIEW
 ----------------------------------
 
-This is a set of VIs to work with ROS. 
-
-As of right now, they have been tested with ROS Hydro.
+This is a set of VIs to work with ROS Hydro.
 
 Current projects:
 XMLRPC parsing: main VI is ROS/Code/ROS_Cmds/XMLCodes/ParseXMLRPC.vi

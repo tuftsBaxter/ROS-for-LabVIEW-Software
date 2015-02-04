@@ -1,28 +1,14 @@
 ROSforLabview
 =============
 
-This is the development branch of our Labview solution for communicating with ROS applications. Developed at Tufts University by the Mechanical Engineering Department and the Center for Engineering Education and Outreach. Currently in alpha.
-
-Changes from Master Branch
-  - Support for multiple concurrent connections on Publishers, Subscribers
-  - Simplified topic initialization - specify topic, message type, etc in cluster to ROSTopicInit rather than in global   array
-  - Node now runs the XMLRPC server and hands off connections as they are made, rather than each topic running its own
-  - Primitive message types for parsing, building now in std_msgs folder rather than their own primitives folder
-  - Early work on Gazebo Support
+This is our Labview solution for communicating with ROS applications. Developed at Tufts University by the Mechanical Engineering Department and the Center for Engineering Education and Outreach. Currently in beta.
 
 ROSforLV should be installed in your "Labview > user.lib" folder (Under applications in Mac OS X and program files in Windows). Labview will need to restart after installing the library.
 
-Gazebo support is still under active development and is not broadly implemented.  The ROS side, though, should be fairly stable.
 
 ROS_Master should be installed in your "Labview > user.lib" folder (Under applications in Mac OS X and program files in Windows). Labview will need to restart after installing the library.
 
 Please send feedback on our mailing list at https://groups.google.com/forum/#!forum/ros-sig-rosforlabview
-<!---
-
-REQUIRED EXTERNAL PACKAGES
-==========================
-Use of this package requires the installation of the OpenG MD5 Library, which can be installed through the VI Package Manager ( http://jki.net/vipm )
--->
 
 Required Software and Settings
 ==============================
