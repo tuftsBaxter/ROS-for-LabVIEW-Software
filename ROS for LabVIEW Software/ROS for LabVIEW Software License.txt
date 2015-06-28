@@ -1,0 +1,20 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Verdana;}
+{\colortbl;\red255\green255\blue255;\red57\green57\blue57;}
+\margl1440\margr1440\vieww15680\viewh9500\viewkind0
+\deftab720
+\pard\pardeftab720\sl413\qc
+
+\f0\fs34 \cf2 \expnd0\expndtw0\kerning0
+ROS for LabVIEW(TM) Software LICENSE\
+\pard\pardeftab720\sl413\sa291\qc
+
+\f1\fs24 \cf2 \expnd0\expndtw0\kerning0
+Version 1, 10 June 2015\
+\pard\pardeftab720\sl413\sa291
+\cf2 \expnd0\expndtw0\kerning0
+Copyright (C) 2015 Tufts University Center for Engineering Education and Outreach <http://ceeo.tufts.edu/>\
+This file is part of ROS for LabVIEW(TM) Software, a solution for programming ROS in LabVIEW(TM).\
+ROS for LabVIEW(TM) Software is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License Version 3 as published by the Free Software Foundation.\
+ROS for LabVIEW(TM) Software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\
+You should have received a copy of the GNU General Public License along with ROS for LabVIEW(TM) Software. If not, see http://www.gnu.org/licenses/.}
