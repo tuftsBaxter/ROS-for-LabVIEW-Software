@@ -1,0 +1,6 @@
+[My Computer]
+My Computer = "130.64.142.81"
+
+[roboRIO]
+roboRIO = "0.0.0.0"
+
