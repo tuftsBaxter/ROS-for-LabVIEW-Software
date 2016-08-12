@@ -15,11 +15,15 @@ Use of ROS for LabVIEW Software requires LabVIEW 2012 or later and VIPM 2014 or 
 
 ROS for LabVIEW Software can be run on Windows and Mac OS. Linux platforms have not been tested.
 
-Use of ROS for LabVIEW Software with the myRIO requires Windows, LabVIEW 2013 or later, LabVIEW myRIO toolkit, and LabVIEW Real-Time Module.
+Use of ROS for LabVIEW Software with the myRIO or roboRIO requires Windows, LabVIEW 2013 or later, LabVIEW myRIO toolkit, and LabVIEW Real-Time Module.
 
 Use of ROS for LabVIEW Software with the roboRIO requires Windows, LabVIEW 2014 or later, LabVIEW roboRIO toolkit, and LabVIEW Real-Time Module.
 
 If you are running LabVIEW on a Virtual Machine, you may have to change your network settings to Bridge.
+
+Use with myRIO and roboRIO
+==========================
+Sample templates for myRIO and roboRIO have been developed and can be found in the Examples folder. Additional information is located in the Help folder.
 
 Use with Baxter Research Robot
 ==============================
