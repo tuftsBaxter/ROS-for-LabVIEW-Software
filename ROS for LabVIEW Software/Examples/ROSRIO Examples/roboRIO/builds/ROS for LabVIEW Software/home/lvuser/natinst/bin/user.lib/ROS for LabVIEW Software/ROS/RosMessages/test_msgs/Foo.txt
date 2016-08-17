@@ -1,0 +1,2 @@
+string string1
+uint32 int1

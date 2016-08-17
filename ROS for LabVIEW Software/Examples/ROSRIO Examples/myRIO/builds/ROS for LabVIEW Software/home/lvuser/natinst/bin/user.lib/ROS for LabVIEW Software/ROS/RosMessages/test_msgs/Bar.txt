@@ -1,0 +1,3 @@
+string string2
+string string3
+int32 thisInt

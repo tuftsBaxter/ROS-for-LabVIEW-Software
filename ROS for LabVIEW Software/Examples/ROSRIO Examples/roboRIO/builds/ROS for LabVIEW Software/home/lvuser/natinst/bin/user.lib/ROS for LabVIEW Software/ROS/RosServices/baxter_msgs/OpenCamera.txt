@@ -1,0 +1,1 @@
+string          nameCameraSettings  settings---int32           err
