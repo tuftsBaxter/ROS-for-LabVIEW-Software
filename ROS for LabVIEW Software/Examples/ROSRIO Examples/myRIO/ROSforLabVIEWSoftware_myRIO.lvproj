@@ -21,10 +21,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Project Documentation" Type="Folder">
-			<Item Name="Documentation Images" Type="Folder">
-				<Item Name="myRIO_Project_Diagram.gif" Type="Document" URL="../documentation/myRIO_Project_Diagram.gif"/>
-			</Item>
-			<Item Name="myRIO Project Documentation.html" Type="Document" URL="../documentation/myRIO Project Documentation.html"/>
+			<Item Name="myRIO and roboRIO Help.pdf" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/myRIO/documentation/myRIO and roboRIO Help.pdf"/>
 		</Item>
 		<Item Name="ROSTerminal.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/ROS/Code/ROS_Tools/ROSTerminal.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -164,9 +161,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Devices" Type="Folder">
 				<Item Name="Baxter" Type="Folder">
 					<Item Name="Baxter Examples" Type="Folder">
-						<Item Name="AllThingsBaxter_ROS.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Baxter/Baxter Examples/AllThingsBaxter_ROS.vi"/>
-						<Item Name="AllThingsBaxter_ROS_myRIO.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Baxter/Baxter Examples/AllThingsBaxter_ROS_myRIO.vi"/>
-						<Item Name="dir.mnu" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Baxter/Baxter Examples/dir.mnu"/>
 						<Item Name="JS_ArraytoCluster.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Baxter/Baxter Examples/JS_ArraytoCluster.vi"/>
 						<Item Name="MainBaxterDemo.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Baxter/Baxter Examples/MainBaxterDemo.vi"/>
 						<Item Name="Simple Playback Controller.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Baxter/Baxter Examples/Simple Playback Controller.vi"/>
@@ -184,11 +178,10 @@ AddOutputFilter chunkFilter
 						<Item Name="CloseBaxterCamera.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Baxter/BaxterVIs/CloseBaxterCamera.vi"/>
 						<Item Name="Command_Goto.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Baxter/BaxterVIs/Command_Goto.vi"/>
 						<Item Name="Command_Joint_Angles.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Baxter/BaxterVIs/Command_Joint_Angles.vi"/>
-						<Item Name="cuff_grasp_buttons.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Baxter/BaxterVIs/cuff_grasp_buttons.vi"/>
+						<Item Name="CuffGraspButtons.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Baxter/BaxterVIs/CuffGraspButtons.vi"/>
 						<Item Name="DigitalIORead.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Baxter/BaxterVIs/DigitalIORead.vi"/>
 						<Item Name="DigitalIOWrapper.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Baxter/BaxterVIs/DigitalIOWrapper.vi"/>
 						<Item Name="DigitalOutCommand.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Baxter/BaxterVIs/DigitalOutCommand.vi"/>
-						<Item Name="dir.mnu" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Baxter/BaxterVIs/dir.mnu"/>
 						<Item Name="Enable_Baxter.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Baxter/BaxterVIs/Enable_Baxter.vi"/>
 						<Item Name="GripperPosition.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Baxter/BaxterVIs/GripperPosition.vi"/>
 						<Item Name="HeadPan.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Baxter/BaxterVIs/HeadPan.vi"/>
@@ -261,52 +254,11 @@ AddOutputFilter chunkFilter
 					<Item Name="Subscribe.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/ROSRIO/Subscribe.vi"/>
 				</Item>
 				<Item Name="Turtlebot" Type="Folder">
+					<Item Name="dir.mnu" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Turtlebot/dir.mnu"/>
 					<Item Name="Odometry.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Turtlebot/Odometry.vi"/>
 					<Item Name="Teleop.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/Turtlebot/Teleop.vi"/>
 				</Item>
 				<Item Name="dir.mnu" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Devices/dir.mnu"/>
-			</Item>
-			<Item Name="Examples" Type="Folder">
-				<Item Name="Baxter Examples" Type="Folder">
-					<Item Name="Buttons Example.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/Baxter Examples/Buttons Example.vi"/>
-					<Item Name="Camera Example.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/Baxter Examples/Camera Example.vi"/>
-					<Item Name="Grippers Example.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/Baxter Examples/Grippers Example.vi"/>
-					<Item Name="Head Nod Example.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/Baxter Examples/Head Nod Example.vi"/>
-					<Item Name="Joints Example.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/Baxter Examples/Joints Example.vi"/>
-				</Item>
-				<Item Name="ROS Examples" Type="Folder">
-					<Item Name="PublisherExample.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROS Examples/PublisherExample.vi"/>
-					<Item Name="ROS_Master_Example.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROS Examples/ROS_Master_Example.vi"/>
-					<Item Name="SubscriberExample.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROS Examples/SubscriberExample.vi"/>
-				</Item>
-				<Item Name="ROSRIO Examples" Type="Folder">
-					<Item Name="myRIO" Type="Folder">
-						<Item Name="documentation" Type="Folder">
-							<Item Name="myRIO Project Documentation.html" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/myRIO/documentation/myRIO Project Documentation.html"/>
-							<Item Name="myRIO_Project_Diagram.gif" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/myRIO/documentation/myRIO_Project_Diagram.gif"/>
-						</Item>
-						<Item Name="Listener.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/myRIO/Listener.vi"/>
-						<Item Name="Publisher.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/myRIO/Publisher.vi"/>
-						<Item Name="ROSforLV_myRIO.aliases" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/myRIO/ROSforLV_myRIO.aliases"/>
-						<Item Name="ROSforLV_myRIO.lvlps" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/myRIO/ROSforLV_myRIO.lvlps"/>
-						<Item Name="ROSforLV_myRIO.lvproj" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/myRIO/ROSforLV_myRIO.lvproj"/>
-						<Item Name="Test.lvlps" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/myRIO/Test.lvlps"/>
-					</Item>
-					<Item Name="roboRIO" Type="Folder">
-						<Item Name="documentation" Type="Folder">
-							<Item Name="roboRIO Project Documentation.html" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/roboRIO/documentation/roboRIO Project Documentation.html"/>
-							<Item Name="roboRIO_Project_Diagram.png" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/roboRIO/documentation/roboRIO_Project_Diagram.png"/>
-						</Item>
-						<Item Name="ROSforLabVIEW_roboRIO.aliases" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/roboRIO/ROSforLabVIEW_roboRIO.aliases"/>
-						<Item Name="ROSforLabVIEW_roboRIO.lvlps" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/roboRIO/ROSforLabVIEW_roboRIO.lvlps"/>
-						<Item Name="ROSforLabVIEW_roboRIO.lvproj" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/roboRIO/ROSforLabVIEW_roboRIO.lvproj"/>
-						<Item Name="test.csv" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/roboRIO/test.csv"/>
-					</Item>
-					<Item Name="dir.mnu" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/dir.mnu"/>
-					<Item Name="SampleClient.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/SampleClient.vi"/>
-					<Item Name="SampleMaster.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/SampleMaster.vi"/>
-					<Item Name="SuperSampleMaster.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/SuperSampleMaster.vi"/>
-				</Item>
 			</Item>
 			<Item Name="ROS" Type="Folder">
 				<Item Name="Code" Type="Folder">
@@ -435,7 +387,6 @@ AddOutputFilter chunkFilter
 						<Item Name="dir.mnu" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/ROS/Code/ROS_Tools/dir.mnu"/>
 						<Item Name="OpenMasterWebPages.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/ROS/Code/ROS_Tools/OpenMasterWebPages.vi"/>
 						<Item Name="OpenNodes.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/ROS/Code/ROS_Tools/OpenNodes.vi"/>
-						<Item Name="ROSTerminal.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/ROS/Code/ROS_Tools/ROSTerminal.vi"/>
 						<Item Name="WaitForMaster.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/ROS/Code/ROS_Tools/WaitForMaster.vi"/>
 					</Item>
 					<Item Name="SubVIs" Type="Folder">
@@ -919,15 +870,10 @@ AddOutputFilter chunkFilter
 				<Item Name="dir.mnu" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/ROS/dir.mnu"/>
 				<Item Name="Errors.txt" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/ROS/Errors.txt"/>
 			</Item>
-			<Item Name="dir.mnu" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/dir.mnu"/>
-			<Item Name="GNU General Public License.txt" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/GNU General Public License.txt"/>
-			<Item Name="README.md" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/README.md"/>
-			<Item Name="README.txt" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/README.txt"/>
-			<Item Name="ROS for LabVIEW Software License.txt" Type="Document" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/ROS for LabVIEW Software License.txt"/>
 		</Item>
-		<Item Name="PublishToTopic.vi" Type="VI" URL="../PublishToTopic.vi"/>
+		<Item Name="PublishToTopic.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/myRIO/PublishToTopic.vi"/>
 		<Item Name="ROS_Master_Main.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/ROS/Code/ROS_Master/ROS_Master_Main.vi"/>
-		<Item Name="SubscribeToTopic.vi" Type="VI" URL="../SubscribeToTopic.vi"/>
+		<Item Name="SubscribeToTopic.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/Examples/ROSRIO Examples/myRIO/SubscribeToTopic.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
@@ -1030,7 +976,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/myRIO/ROS for LabVIEW Software</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
