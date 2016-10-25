@@ -3,7 +3,7 @@ ROS for LabVIEW(TM) Software
 
 This is a set of VIs for communicating with ROS applications. Developed at Tufts University by the Mechanical Engineering Department and the Center for Engineering Education and Outreach. Currently in beta.
 
-If installing from github: ROSforLV should be installed in your "LabVIEW > user.lib" folder (Under applications in Mac OS X and program files in Windows). LabVIEW will need to restart after installing the library.
+If installing from github: ROS for LabVIEW Software, which is the folder located within the download, should be installed in your "LabVIEW 20XX > user.lib" folder (Under Applications > National Instruments in Mac OS X and Program Files x86 >National Instruments in Windows). LabVIEW will need to restart after installing the library.
 
 Join our NI community at https://decibel.ni.com/content/groups/ros-for-labview
 
